@@ -1,0 +1,68 @@
+.title-head {
+    background-color: rgb(110, 85, 141);
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 4%;
+    background-color: darkgrey;
+}
+
+.main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    @media (max-width: 526px) {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.date_time_container {
+    margin-top: 15px;
+}
+
+.reserve_header {
+    padding: 2%;
+    background-color: rgb(248, 214, 20);
+    color: white;
+
+}
+
+.guests_container {
+    margin-top: 15px;
+}
+
+.reserve_label {
+    display: flex;
+    justify-content: center;
+}
+
+.button_reserve {
+    display: flex;
+    justify-content: center;
+}
+
+.reserve_button {
+    color: white;
+    background-color: rgb(248, 214, 20);
+}
+
+.nav_element {
+    color: black;
+}
+
+.navbar_style {
+    background-color: rgb(44, 44, 163);
+}
+
+.social-media {
+    @media (max-width: 526px) {
+        margin-left: 25%
+    }
+}
