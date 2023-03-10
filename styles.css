@@ -22,7 +22,40 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
-
+.section_container {
+    margin-top: 15px;
+}
+.btn-reserve {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary {
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-image: none;
+    background-color: green;
+    border-color: green;
+}
+.btn-secondary {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-default {
+    color: #fff;
+    background-color: gray;
+    border-color: gray;
+}
 .date_time_container {
     margin-top: 15px;
 }
@@ -41,6 +74,7 @@
 .reserve_label {
     display: flex;
     justify-content: center;
+    background-color: blue;
 }
 
 .button_reserve {
@@ -49,8 +83,8 @@
 }
 
 .reserve_button {
-    color: black;
-    background-color: rgb(248, 214, 20);
+    color: rgb(244, 241, 241);
+    background-color: rgb(207, 184, 56);
 }
 
 .nav_element {
