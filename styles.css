@@ -1,5 +1,5 @@
 .title-head {
-    background-color: rgb(110, 85, 141);
+    background-color: rgb(162, 124, 212);
     color: white;
 }
 
@@ -30,24 +30,13 @@
     background-color: #007bff;
     border-color: #007bff;
 }
-.btn-primary {
+.btn-success {
     color: white;
     background-color: green;
     border-color: green;
 }
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-image: none;
-    background-color: green;
-    border-color: green;
-}
-.btn-secondary {
+.btn-danger {
     color: white;
-    background-color: #dc3545;
-    border-color: #dc3545;
-}
-.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
-    color: #fff;
     background-color: #dc3545;
     border-color: #dc3545;
 }
@@ -59,14 +48,6 @@
 .date_time_container {
     margin-top: 15px;
 }
-
-.reserve_header {
-    padding: 2%;
-    background-color: rgb(212, 196, 106);
-    color: white;
-
-}
-
 .guests_container {
     margin-top: 15px;
 }
@@ -82,9 +63,9 @@
     justify-content: center;
 }
 
-.reserve_button {
-    color: rgb(244, 241, 241);
-    background-color: rgb(207, 184, 56);
+.btn-warning{
+    color: white;
+    background-color:   rgb(233, 203, 34);
 }
 
 .nav_element {
